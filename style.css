@@ -1,0 +1,36 @@
+h1 {
+    text-align : center;
+}
+
+#startGame {
+    margin-top : 40px;
+}
+
+.gameControls {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.gameGrid {
+    display: grid;
+    grid-template-columns : 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 30%;
+    height: 50%;
+    margin: auto;
+    border: 2px solid;
+    border-color: black;
+}
+
+.gridCell {
+    border: 1px solid;
+    border-color: black;
+}
+
+img {
+    max-width: 80%;
+    max-height: 80%;
+    margin:auto;
+    display: block;
+}
